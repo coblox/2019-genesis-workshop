@@ -26,23 +26,17 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
    - Ubuntu/Debian: `apt install libssl-dev pkg-config`
 7. Source profile to add `cargo` to `$PATH`: `source ~/.profile`
 
-## Comit
+## COMIT Setup
 1. Clone comit-rs repo: `git clone https://github.com/comit-network/comit-rs.git && cd comit-rs`
 2. Install:
    - `cargo install --path application/comit_node`
    - `cargo install --path application/btsieve`
-3. Setup [Bitcoin](#Bitcoin) & [Ethereum](#Ethereum)
-4. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
-5. Start btsieve: `btsieve --config ./btsieve.toml` 
-6. Start comit_node: `comit_node`
-7. Go to [http://localhost:8080]
-8. Accept to register comit links with your browser
 
-## Bitcoin
+## Bitcoin setup
 1. In `docker-compose.yml`, replace `BITCOIN_NODE_IP` with Bitcoin Node IP from Slack topic 
 2. Start Bitcoin node from the workshop folder: `docker-compose up`
 
-## Ethereum
+## Ethereum setup
 1. Install metamask: https://metamask.io/
 2. Setup Metamask by following the wizard (new wallet). Yes you have to do the seed phrase thing.
 3. Connect metamask to our Ethereum node:
@@ -56,8 +50,15 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
 
   ![copy address](./img/eth_copy_address.png)
   
-# Do a Swap!
+  
+## Resume COMIT setup
+4. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
+5. Start btsieve: `btsieve --config ./btsieve.toml` 
+6. Start comit_node: `comit_node`
+7. Go to [http://localhost:8080]
+8. Accept to register comit links with your browser
 
+## Do a Swap!
 For Ethereum actions: use metamask
 
 For Bitcoin actions: need to use commandline (do `docker ps` to find out the `DOCKER_ID`)
