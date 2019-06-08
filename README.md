@@ -33,7 +33,7 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
    - `cargo install --path application/btsieve`
 
 ## Bitcoin setup
-1. In `docker-compose.yml`, replace `BITCOIN_NODE_IP` with Bitcoin Node IP from Slack topic 
+1. In `docker-compose.yml`, replace `BITCOIN_NODE_IP_PORT` with Bitcoin Node IP from Slack topic 
 2. Start Bitcoin node from the workshop folder: `docker-compose up`
 
 ## Ethereum setup
