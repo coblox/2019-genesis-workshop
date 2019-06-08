@@ -11,7 +11,7 @@ services:
       -debug=1
       -zmqpubrawblock=tcp://*:28332
       -acceptnonstdtxn=0
-      -addnode=REPLACE_THIS_WITH_BITCOIN_NODE_IP
+      -addnode=BITCOIN_NODE_IP
     ports:
       - "18443:18443"
       - "28332:28332"

@@ -6,8 +6,8 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
 
 # Slack channel
 
-- Go to #coblox-workshop
-Url to repo in the topic, clone it: `git clone https://github.com/coblox/2019-genesis-workshop`
+1. Go to #coblox-workshop
+2. The url of the repo in the topic, clone it: `git clone https://github.com/coblox/2019-genesis-workshop`
 
 ## Tooling
 
