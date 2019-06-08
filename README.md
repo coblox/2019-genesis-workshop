@@ -52,14 +52,15 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
   
   
 ## Resume COMIT setup
-4. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
-5. Start btsieve: `btsieve --config ./btsieve.toml` 
-6. Start comit_node: `comit_node`
-7. Go to http://localhost:8080
-8. Accept to register comit links with your browser
+1. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
+2. Start btsieve: `btsieve --config ./btsieve.toml` 
+3. Start comit_node: `comit_node`, this will generates a config file
+4. In `~/.config/comit/comit_node.toml`, update both `poll_interval_secs` to `2` (seconds). 
+5. Go to http://localhost:8080
+6. Accept to register comit links with your browser
 
 ## Do a Swap!
-For Ethereum actions: use metamask
+For Ethereum actions: use metamask. Fund only ONCE.
 
 For Bitcoin actions, need to use commandline:
 - `alias btc-cli='docker exec -it bitcoind_1 bitcoin-cli -regtest -rpcport=18443 -rpcuser=bitcoin -rpcpassword=54pLR_f7-G6is32LP-7nbhzZSbJs_2zSATtZV_r05yg='`
