@@ -70,6 +70,6 @@ For Bitcoin actions, need to use commandline:
 - Send money: `btc-cli sendtoaddress "address" amount`
 - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
 - Get an address from your wallet (to redeem): `btc-cli getnewaddress`
-- Use `100` for fees
+- Use `20` for fees
 
 Start by buying Bitcoin with Ether from our bobtimus (click the link in the chat).
