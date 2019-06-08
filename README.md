@@ -51,11 +51,14 @@ If there are no instructions for your system (Mac/Ubuntu) then there is nothing 
 
   ![copy address](./img/eth_copy_address.png)
   
+5. Deactivate Metamask Privacy Mode: Settings > Security & Privacy > Privacy Mode
+
+  ![settings](./img/eth_privacy.png)
   
 ## Resume COMIT setup
 1. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
 2. Start btsieve: `btsieve --config ./btsieve.toml` 
-3. Start comit_node: `comit_node`, this will generates a config file
+3. Start comit_node: `comit_node`, this will generate a config file
 4. Kill comit_node: `pkill comit_node` or `CTRL+C`
 5. In `~/.config/comit/comit_node.toml`, update both `poll_interval_secs` to `2` (seconds).
 6. Start comit_node again: `comit_node`
