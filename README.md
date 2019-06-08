@@ -55,7 +55,7 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
 4. In `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with Ethereum URL from Slack topic
 5. Start btsieve: `btsieve --config ./btsieve.toml` 
 6. Start comit_node: `comit_node`
-7. Go to [http://localhost:8080]
+7. Go to http://localhost:8080
 8. Accept to register comit links with your browser
 
 ## Do a Swap!
