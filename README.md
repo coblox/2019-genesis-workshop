@@ -2,7 +2,7 @@
 
 Welcome to the workshop!
 
-If there are no instruction for your system (Mac/Ubuntu) then there is nothing to be done.
+If there are no instructions for your system (Mac/Ubuntu) then there is nothing to be done.
 
 # Slack channel
 
