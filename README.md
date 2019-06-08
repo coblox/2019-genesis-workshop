@@ -69,5 +69,7 @@ For Bitcoin actions, need to use commandline:
 - `alias btc-cli='docker exec -it bitcoind_1 bitcoin-cli -regtest -rpcport=18443 -rpcuser=bitcoin -rpcpassword=54pLR_f7-G6is32LP-7nbhzZSbJs_2zSATtZV_r05yg='`
 - Send money: `btc-cli sendtoaddress "address" amount`
 - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
+- Get an address from your wallet (to redeem): `btc-cli getnewaddress`
+- Use `100` for fees
 
 Start by buying Bitcoin with Ether from our bobtimus (click the link in the chat).
