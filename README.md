@@ -61,8 +61,8 @@ If there are no instruction for your system (Mac/Ubuntu) then there is nothing t
 ## Do a Swap!
 For Ethereum actions: use metamask
 
-For Bitcoin actions: need to use commandline (do `docker ps` to find out the `DOCKER_ID`)
-- `alias btc-cli='docker exec -it <DOCKER_ID> bitcoin-cli -regtest -rpcport=18443 -rpcuser=bitcoin -rpcpassword=54pLR_f7-G6is32LP-7nbhzZSbJs_2zSATtZV_r05yg='`
+For Bitcoin actions, need to use commandline:
+- `alias btc-cli='docker exec -it bitcoind_1 bitcoin-cli -regtest -rpcport=18443 -rpcuser=bitcoin -rpcpassword=54pLR_f7-G6is32LP-7nbhzZSbJs_2zSATtZV_r05yg='`
 - Send money: `btc-cli sendtoaddress "address" amount`
 - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
 
