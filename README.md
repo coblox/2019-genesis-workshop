@@ -69,7 +69,7 @@ Please install the following tools:
 For Ethereum actions: use metamask. Fund only ONCE.
 
 For Bitcoin actions you need to use the commandline:
-- `alias btc-cli='docker exec -it bitcoind_1 bitcoin-cli -regtest -rpcport=18443 -rpcuser=bitcoin -rpcpassword=54pLR_f7-G6is32LP-7nbhzZSbJs_2zSATtZV_r05yg='`
+- `alias btc-cli='docker exec bitcoind_1 bitcoin-cli -regtest'`
 - Send money: `btc-cli sendtoaddress "address" amount`
 - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
 - Get an address from your wallet (to redeem): `btc-cli getnewaddress`
