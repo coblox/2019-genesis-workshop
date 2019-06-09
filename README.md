@@ -50,13 +50,13 @@ Please install the following tools:
   - Network Name: "CoBloX Test"
   - New RPC URL: Ethereum URL from the Slack channel topic
   - Leave the rest empty
-4. Paste your address in the slack-channel with "Fund me please"
+4. Paste your address in the Slack channel with "Fund me please"
 
   ![copy address](./img/eth_copy_address.png)
   
   
 ## Resume COMIT setup
-1. In the `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with the Ethereum URL from the slack-channel topic
+1. In the `btsieve.toml` file, replace `REPLACE_THIS_ETHEREUM_NODE_URL` with the Ethereum URL from the Slack channel topic
 2. Start btsieve: `btsieve --config ./btsieve.toml` 
 3. Start comit_node: `comit_node`, this will generate a config file
 4. Kill comit_node: `pkill comit_node` or `CTRL+C`
