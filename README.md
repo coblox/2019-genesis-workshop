@@ -7,7 +7,7 @@ In the instructions below, if nothing is specified for your system (Mac/Ubuntu) 
 # Slack channel
 
 1. Go to #coblox-workshop
-2. The url of the repo in the slack-channel topic, clone it: `git clone https://github.com/coblox/2019-genesis-workshop`
+2. The url of the repo in the Slack channel topic, clone it: `git clone https://github.com/coblox/2019-genesis-workshop`
 
 ## Tooling
 
