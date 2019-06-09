@@ -66,14 +66,17 @@ Please install the following tools:
 8. Accept to register comit links with COMIT-I (notification in your browser)
 
 ## Do a Swap!
-
 Start by buying Bitcoin with Ether from our bobtimus (click the link in the chat).
 
-To do Ethereum actions: use Metamask. Fund only ONCE.
+To do Ethereum actions: use metamask. Fund only ONCE.
 
 To do Bitcoin actions you need to use the commandline:
-- `alias btc-cli='docker exec bitcoind_1 bitcoin-cli -regtest'`
-- Send money: `btc-cli sendtoaddress "address" amount`
-- Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
-- Get an address from your wallet (to redeem): `btc-cli getnewaddress`
-- Use `20` for fees
+- `alias btc-cli='docker exec 2019-genesis-workshop_bitcoind_1 bitcoin-cli -regtest'`
+    - Redeeming:
+        - Get an address from your wallet (to redeem): `btc-cli getnewaddress`
+        - Use `20` for fees
+        - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
+    - Funding:
+        - `btc-cli sendtoaddress "address" amount`
+
+Start by buying Bitcoin with Ether from our bobtimus (click the link in the chat).
