@@ -48,7 +48,7 @@ Please install the following tools:
     ![connect Ethereum](./img/eth_connect.png)
     
   - Network Name: "CoBloX Test"
-  - New RPC URL: Ethereum URL from the slack-channel topic
+  - New RPC URL: Ethereum URL from the Slack channel topic
   - Leave the rest empty
 4. Paste your address in the slack-channel with "Fund me please"
 
