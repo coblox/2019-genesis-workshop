@@ -74,8 +74,8 @@ To do Bitcoin actions you need to use the commandline:
 - `alias btc-cli='docker exec 2019-genesis-workshop_bitcoind_1 bitcoin-cli -regtest'`
     - Redeeming:
         - Get an address from your wallet (to redeem): `btc-cli getnewaddress`
-        - Use `20` for fees
-        - Broadcast transaction: `btc-cli sendrawtransaction <transaction hex>`
+        - Use the returned address and `20` for fees to create the transaction in the browser
+        - Broadcast the transaction: `btc-cli sendrawtransaction <transaction hex>`
     - Funding:
         - `btc-cli sendtoaddress "address" amount`
 
