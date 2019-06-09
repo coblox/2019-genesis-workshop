@@ -68,7 +68,7 @@ Please install the following tools:
 ## Do a Swap!
 Start by buying Bitcoin with Ether from our bobtimus (click the link in the chat).
 
-To do Ethereum actions: use metamask. Fund only ONCE.
+To do Ethereum actions: use Metamask. Fund only ONCE.
 
 To do Bitcoin actions you need to use the commandline:
 - `alias btc-cli='docker exec 2019-genesis-workshop_bitcoind_1 bitcoin-cli -regtest'`
