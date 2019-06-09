@@ -2,7 +2,7 @@
 
 Welcome to the workshop!
 
-The workshop was tested for Ubuntu and Mac only. If there are no instructions for your system then unfortunately there is nothing to be done.
+In the instructions below, if nothing is specified for your system (Mac/Ubuntu) then you skip the step.
 
 # Slack channel
 
