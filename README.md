@@ -36,7 +36,7 @@ Please install the following tools:
 
 ## Bitcoin setup
 1. Navigate to the `2019-genesis-workshop` folder
-2. In `docker-compose.yml`, replace `BITCOIN_NODE_IP_PORT` with the Bitcoin Node IP:PORT from the slack-channel topic 
+2. In `docker-compose.yml`, replace `BITCOIN_NODE_IP_PORT` with the Bitcoin Node IP:PORT from the Slack channel topic 
 3. Start the Bitcoin node from the workshop folder: `docker-compose up`
 
 ## Ethereum setup
