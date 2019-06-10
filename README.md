@@ -21,7 +21,10 @@ Please install the following tools:
    - Ubuntu: `apt-get install build-essential`
 4. rustup (Mac & Ubuntu)
    - `curl https://sh.rustup.rs -sSf | sh`
-   - enter this into a terminal if nix is giving you trouble: `nix-env -e '.*'` you will need to reinstall the toolchain afterward and uninstall rustup
+   - Nix:
+     - try `nix-shell -p rustup`
+     - OR enter this into a terminal if nix is giving you trouble: `nix-env -e '.*'` you will need to reinstall the toolchain afterward and uninstall rustup
+     - or need to set `LIBRARY_PATH` to include `zeromq` derivation and `OPENSSL_DIR` to include `staticSupport.openssl` from `tenx-dev`
 5. libzmq:
    - Ubuntu/Debian: `apt install libzmq3-dev`
    - Mac ([Homebrew](https://brew.sh/)) `brew install zeromq`
