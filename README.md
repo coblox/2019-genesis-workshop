@@ -21,6 +21,7 @@ Please install the following tools:
    - Ubuntu: `apt-get install build-essential`
 4. rustup (Mac & Ubuntu)
    - `curl https://sh.rustup.rs -sSf | sh`
+   - enter this into a terminal if nix is giving you trouble: `nix-env -e '.*'` you will need to reinstall the toolchain afterward and uninstall rustup
 5. libzmq:
    - Ubuntu/Debian: `apt install libzmq3-dev`
    - Mac ([Homebrew](https://brew.sh/)) `brew install zeromq`
